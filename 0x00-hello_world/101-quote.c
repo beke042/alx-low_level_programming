@@ -20,4 +20,5 @@ int main(void)
 
 	write(STDERR_FILENO, message, len);
 
-	return (1);
+	return(1);
+}
