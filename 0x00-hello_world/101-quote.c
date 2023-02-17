@@ -14,11 +14,11 @@ int main(void)
 	char message[128];
 	ssize_t len;
 
-	strcpy(message, message1);
-	strcat(message, message2);
-	len = strlen(message);
+strcpy(message, message1);
+strcat(message, message2);
+len = strlen(message);
 
-	write(STDERR_FILENO, message, len);
+write(STDERR_FILENO, message, len);
 
-	return(1);
+return (1);
 }
